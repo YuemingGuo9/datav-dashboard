@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>光伏智能管理数据可视化</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+</head>
+<body>
+  <div class="dashboard">
+    <header>光伏智能管理数据可视化</header>
+    <main>
+      <section class="card-row">
+        <div class="card"><p>总发电量</p><h2>38,120</h2><small>千瓦时</small></div>
+        <div class="card"><p>累计收益</p><h2>382,110</h2><small>元</small></div>
+        <div class="card"><p>总运行天数</p><h2>38</h2><small>天</small></div>
+      </section>
+      <section class="charts">
+        <div id="chart1" class="chart"></div>
+        <div id="chart2" class="chart"></div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
